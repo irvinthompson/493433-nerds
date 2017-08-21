@@ -1,12 +1,152 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css1">
+    </head>
+    <body>
+        <header clas="main-header">
+            <nav class="main-navigation">
+                <div class="logo">
+                <a class="main-header-logo" href="index.html">
+                    <img src="img/nerds-logo2.jpg" alt="Изображение интернет магазина Nerds" height="65" with="160" name="logo">
+                    </a>
+                    </div>
+                <ul class="site-navigation">
+                    <li><a href="studia.html">Студия</a></li>
+                    <li><a href="client.html">Клиенты</a></li>
+                    <li><a href="shop.html">Магазин</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <ul class="cart-item">
+                    <li class="bascket">Корзина</li>
+                </ul>
+                <h1>Долго, дорого, скрупулезно</h1>
+                <p>Математически выверенный дизайн<br>
+                для вашего сайте илимобильного приложения
+                <a class="button" href="#">Узнать больше</a>
+                    </p>
+            </nav>
+        </header>
+        <main class="container">
+            <section class="catalog">
+                <h2 class="visually-hidden">Список услуг</h2>
+                <ul>
+                    <li class="catalog-item">
+                        <p class="catalog-item-image">
+                            <a href="catalog-item.html">
+                            <img src="img/illustration-1.jpg" alt="Изображение услуг" width="300" height="146">
+                            </a>
+                            <a href="catalog-item.html">
+                                <span class="catalog-item-title">Веб-сайт</span>
+                                <span class="catalog-item-desc">Мир никогда не будет прежним после того как увидит ваш сайт</span>
+                            </a>
+                            <a class="button" href="#">Заказать</a>
+                        </p>
+                    </li>
+                    <li class="catalog-item">
+                        <p class="catalog-item-image">
+                            <a href="catalog-item.html">
+                            <img src="img/illustration-2.jpg" alt="Изображение услуг" width="300" height="146">
+                            </a>
+                            <a href="catalog-item.html">
+                                <span class="catalog-item-title">Приложения</span>
+                                <span class="catalog-item-desc">Покорите топ-10 приложений в App Store Google play</span>
+                            </a>
+                            <a class="button" href="#">Заказать</a>
+                        </p>
+                    </li>
+                        <li class="catalog-item">
+                        <p class="catalog-item-image">
+                            <a href="catalog-item.html">
+                            <img src="img/illustration-3.jpg" alt="Изображение услуг" width="300" height="146">
+                            </a>
+                            <a href="catalog-item.html">
+                                <span class="catalog-item-title">Призентации</span>
+                                <span class="catalog-item-desc">Вы даже не подазриваете, насколько вы изумительны </span>
+                            </a>
+                            <a class="button" href="#">Заказать</a>
+                        </p>
+                    </li>
+                    
+                </ul>
+            </section>
+            <section class="about-us">
+                <h1>Мы-маленькая, но гордая дизайн-студия из Краснодара
+                </h1>
+                <p>Исповедуем принципы минимальзма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук.</p>
+                <h3>Выполняем заказы на разработку</h3>
+                <ul>
+                    <li>Веб сайтов либой сложности</li>
+                    <li>Мобильные приложения для IOS и Android</li>
+                    <li>Слайдшоу и видео для корпоративных призентаций</li>
+                </ul>
+                <aside class="company-inf">
+                    <a href="index.html">
+                        <img src="img/nerds-illustration.jpg" alt="Логотип Nerds" width="360" height="208">
+                    </a>
+                    <table>
+                        <caption>C 2004 года любим точность во всём</caption>
+                        <tr>
+                            <td>146%</td>
+                            <td>100%</td>
+                            <td>50%</td>
+                        </tr>
+                        <tr>
+                            <td>Уровень самоотудачи</td>
+                            <td>Соблюдение сроков</td>
+                            <td>Минимальная предоплата</td>
+                        </tr>
+                    </table>
+                </aside>
+            </section>
+            <div class="patners">
+                <ul>
+                <li>
+                <a href="htmlacademy.com">
+                    <img src="img/logo-1.png" alt="Изображение HTML Academy" width="199" height="68">
+                </a>
+                  </li>
+                    <li>
+                        <a href="borodinskyi.html">
+                            <img src="img/logo-2.png" alt="Изображение Барбершопа Бородинский" width="199" height="68">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pink.html">
+                            <img src="img/logo-3.png" alt="Изображение Pink" height="68" width="185">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mishka.html">
+                            <img src="img/logo-4.png" alt="Изображение сайта Мишка" width="173" height="84">
+                        </a>
+                    </li>
+                 </ul>                                               
+            </div>
+                 
+                     
+        </main>
+        <footer class="main-footer">
+            <p class="footer-contacts">
+                Nerds Design Studio<br>
+                191186 Санкт-Петрбург,<br>
+                ул. Б. Конюшенная, д 19/8<br>
+                тел. +7(812) 275-75-75
+                <a class="button" href="#">Напишите нам</a>
+            </p>
+             <div class="footer-social">
+            <h1>Давайте Дружить! это выгодно</h1>
+                 <p>Скидака 10% для друзей из социальных сетей</p>
+            <ul>
+                <li><a class="social-button" href="#"><img src="vk-icon.svg" alt="Вконтакте"</a></li>
+                <li><a class="social-button" href="#"><img src="fb-icon.svg" alt="Фейсбук"></a></li>
+                <li><a class="social-button" href="#"><img src="insta-icon.svg" alt="Инстаграм"></a></li>
+            </ul>
+        </div>
+        </footer>
+                 
+      
+    </body>
 </html>
