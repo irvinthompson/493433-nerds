@@ -1,0 +1,18 @@
+.site-navigation li {
+    display: inline-block;
+    margin-right: 46px;
+    position: top;
+}
+
+.patners li{
+    display: inline-block;
+    margin-right: 96px;
+}
+
+header {
+    background-color: #eeeeee;
+}
+
+.catalog-item li {
+    display: inline-block;
+}
