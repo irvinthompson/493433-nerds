@@ -1,0 +1,140 @@
+body {
+  
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(40, 49, 54);
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+
+}
+
+footer {
+    background-color: #eeeeee;
+}
+
+.main-navigation {
+    
+  font-size: 16px;
+  font-family: "Roboto";
+  background-color: #eeeeee
+  
+}
+.site-navigation a {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto", medium;
+    text-decoration: none;
+    
+}
+
+.site-navigation li {
+    display: inline;
+    margin-left: 50px
+
+}
+
+.cart-item li {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto", medium;
+    text-decoration: none;
+    display: inline;
+    margin-left: 50px
+}
+
+.button1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    margin-right: 60px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+    width: 240px;
+    height: 50;
+    border: none;
+    background-color: #fb565a;
+    
+}
+
+.bascket p {
+  font-size: 16px;
+  font-family: "Roboto", normal;
+  color: rgb(40, 49, 54);
+  line-height: 1.5px;
+  text-align: left;
+}
+
+.catalog-item {
+    display: inline;
+}
+    
+    
+    
+
+h1 {
+  font-size: 55px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  text-align: left;
+}
+
+.visually-hidden h2{
+    display: none;
+}
+
+.catalog-item-title {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: bold;
+  line-height: 1.25;
+  
+}
+
+.catalog-item-desc p{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(40, 49, 54);
+  line-height: 1.5;
+  
+}
+
+
+}
+
+.patners li {
+    display: inline;
+}
+
+.footer-contacts {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(102, 102, 102);
+  line-height: 1.125;
+  text-align: left;
+  
+}
+
+
+
+
+    
+
+    
+  
+   
+    
+
+
+
+ 
+
+
