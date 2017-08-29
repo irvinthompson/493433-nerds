@@ -8,7 +8,7 @@ body {
 }
 
 
-}
+
 
 footer {
     background-color: #eeeeee;
@@ -26,6 +26,7 @@ footer {
     font-size: 16px;
     font-family: "Roboto", medium;
     text-decoration: none;
+    font-weight: 500;
     
 }
 
@@ -87,8 +88,8 @@ h1 {
   text-align: left;
 }
 
-.visually-hidden h2{
-    display: none;
+.visually-hidden {
+    visibility: hidden;
 }
 
 .catalog-item-title {
@@ -108,10 +109,10 @@ h1 {
 }
 
 
-}
 
-.patners li {
-    display: inline;
+
+.patners li{
+    display: inline-block;
 }
 
 .footer-contacts {
