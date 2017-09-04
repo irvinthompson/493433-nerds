@@ -19,8 +19,6 @@ header {
   font-family: "Roboto";
   background-color: #eeeeee;
   display: flex;
-  
-  
 }
 .site-navigation a {
     color: #000000;
@@ -28,7 +26,27 @@ header {
     font-family: "Roboto", medium;
     text-decoration: none;
     font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
     
+}
+
+.site-navigation li:nth-child(4) {
+    margin-right: 240px;
+}
+
+.basscet {
+    margin-right: 22px;
+}
+
+.site-navigation a:hover {
+    text-decoration: none;
+    color: #fb565a;
+}
+
+.site-navigation a:active {
+    text-decoration: none;
+    color: #bababa;
 }
 
 .slide1 {
@@ -50,6 +68,8 @@ header {
 .catalog-list {
     display: flex;
     padding: 0;
+    margin-left: 100px;
+    justify-content: space-between;
 }
 
 .cart-item li {
@@ -73,7 +93,15 @@ header {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 5px;
-    
+}
+
+.button1:hover {
+    background-color: #e74246;
+}
+
+.button1:focus {
+    background-color: #d7373b;
+    color: #e37376;
 }
 
 .button2 {
@@ -88,7 +116,19 @@ header {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 5px;
+    
 }
+
+.button2:hover {
+    background-color: #e74246;
+}
+
+.button2:focus {
+    background-color: #d7373b;
+    color: #e37376;
+}
+
+
 
 .button3 {
     color: #ffffff;
@@ -102,6 +142,15 @@ header {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 5px;
+}
+
+.botton3:hover {
+    background-color: #00bc6c;
+}
+
+.botton3:focus {
+    background-color: #00aa62;
+    color: #4dc491;
 }
 
 .button4 {
@@ -118,6 +167,15 @@ header {
     border-radius: 5px;
 }
 
+.button4:hover {
+    background-color: #eab534;
+}
+
+.button4:focus {
+    background-color: #e5a722;
+    color: #edc265;
+}
+
 .button6 {
     color: #ffffff;
     font-family: "Roboto";
@@ -130,7 +188,6 @@ header {
     text-transform: uppercase;
     display: inline-block;
     border-radius: 5px;
-    
 }
 
 .catalog-item {
@@ -138,9 +195,7 @@ header {
 }
     
     
- hr {
-     background-color: #eeeeee;
-}
+    
 
 h1 {
   font-size: 55px;
@@ -176,19 +231,41 @@ h1 {
 
 .catalog-item-desc p{
   font-size: 16px;
-  font-family: "Roboto";
-  color: rgb(40, 49, 54);
-  line-height: 1.5;
+  font-family: "Roboto" "regular";
+  color: #283136;
+  line-height: 24px;
   
 }
 
+.about-us h2 {
+    font-family: "Roboto" "medium";
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
 
+.about-us h3 {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+    
 
-
+.about-us p {
+    font-family: "Roboto" "regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
 
 
 .patners li{
     display: inline-block;
+}
+
+.patners a:nth-child(1):hover {
+    background: url(img/logo-1.png);
 }
 
 .footer-contacts {
@@ -209,6 +286,82 @@ legend {
  
 }
 
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.filters fieldset{
+    border: none;
+}
+
+.filters legend {
+    font-size: 18px;
+    line-height: 1.667;
+}
+
+.filters ul {
+    list-style: none;
+}
+
+.item-catalog li{
+    list-style: none;
+}
+
+.separation li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.separation h2{
+    font-style: "Roboto" "bold";
+    font-size: 18px;
+    display: inline-block;
+}
+
+.pagination-item {
+    display: inline-block;
+    font-family: "Roboto" "medium";
+    border: none;
+    background-color: #eeeeee;
+    padding: 20px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.pagination-item > a,
+.pagination-item > a:hover,
+.pagination-item > a:focus,
+.pagination-item > a:link,
+.pagination-item > a:active,
+.pagination-item > a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pagination-item-current {
+    border: 4px solid #dbdbdb;
+    display: inline-block;
+    background: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.pagination-item-current > a,
+.pagination-item-current > a:hover,
+.pagination-item-current > a:focus,
+.pagination-item-current > a:link,
+.pagination-item-current > a:active,
+.pagination-item-current > a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
 .footer-contacts {
   font-size: 16px;
   font-family: "Roboto";
@@ -217,6 +370,25 @@ legend {
   text-align: left;
   
 }
+
+.footer-social li {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: #e1e1e1;
+}
+
+.footer-social li:hover {
+    background-color: #e74246;
+}
+
+.footer-social li:focus {
+    background-color: #d7373b;
+    color: #e37376;
+}
+
 
 
 

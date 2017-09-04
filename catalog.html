@@ -9,22 +9,23 @@
     </head>
 </html>
 <body>
-    <header class="main-header">
-        <nav clas="main-navigation">
-            <a class="main-header-logo" href="index.html" tabindex="1">
-                <img src="img/nerds-logo.png" alt="Логотип" height="65" with="160">
+         <header class="main-header">
+           <nav class="main-navigation">
+                <div class="logo">
+                <a class="main-header-logo" href="index.html" tabindex="1">
+                    <img src="img/nerds-logo.png" alt="Логотип" width="160" height="65">
+                    
+                   </a>
+                    </div>
                 <ul class="site-navigation">
                     <li><a href="studia.html" tabindex="2">Студия</a></li>
                     <li><a href="client.html" tabindex="3">Клиенты</a></li>
-                    <li><a href="site-navigation-current" tabindex="4">Магазин</a></li>
+                    <li><a href="shop.html" tabindex="4">Магазин</a></li>
                     <li><a href="contact.html" tabindex="5">Контакты</a></li>
+                    <li><a href="basckets.html" tabindex="6"><img src="img/svg-nerds/cart-icon.svg" alt="cart" width="15px" height="15px" class="basscet">Корзина</a></li>
                 </ul>
-                    <ul class="cart-item">
-                    <li class="bascket" tabindex="6">Корзина</li>
-                </ul>
-                <h1>Магазин готовых шаблонов</h1>
-               </a>
-        </nav>
+                </nav>
+             <h1>Магазин готовых шаблонов</h1>
     </header>
     <section class="filters">
         <h2 class="visual-hiden">Фильтры услуг</h2>
@@ -75,12 +76,12 @@
                     </li>
                 </ul>
             </fieldset>
-            <button class="button" type="button" tabindex="16">Показать</button>
+            <a class="button-show" tabindex="16">Показать</a>
         </form>
     </section> 
     <main class="container">
-        <h2>Сортировать</h2>
         <nav class="separation">
+        <h2>Сортировать</h2>
             <ul>
                 <li a href="#" tabindex="17">По цене</li>
                 <li a href="#" tabindex="18">По типу</li>
@@ -100,9 +101,9 @@
             <p><span class="catalog-item">Информационный сайт</span><br>
             для туриство</p>
             <p class="category-item-price"></p>
-            <button type="button" class="button" tabindex="21">
-                <b>9 900 ₽</b>
-            </button>
+            <a  class="button-cost" tabindex="21">
+                9 900 ₽
+            </a>
                 </li>
                 <li>
                     <a href="catalog-item.html" tabindex="22">
@@ -130,12 +131,14 @@
                 <li>
                     <img src="img/img-kvast.jpg" width="360" height="576" alt="beer">
                 </li>
+            <div class="list-page">
                 <ul>
                         <li class="pagination-item-current" tabindex="26"><a href="#">1</a></li>
-                        <li class="pagination-item" tabindex="27">2</li>
+                    <li class="pagination-item" tabindex="27"><a href="#">2</a></li>
                         <li class="pagination-item" tabindex="28"><a href="#">3</a></li>
-                        <li class="pagination-item" tabindex="29"><a href="#">4</a>></li>
+                        <li class="pagination-item" tabindex="29"><a href="#">Следующая</a></li>
                     </ul>
+                </div>
         </section>
         
         
@@ -151,9 +154,9 @@
         <div class="footer-social">
             <b>Давайте Дружить!</b>
             <ul>
-                <li tabindex="31"><a class="social-button" href="#">Вконтакте</a></li>
-                <li tabindex="32"><a class="social-button" href="#">Фейсбук</a></li>
-                <li tabindex="33"><a class="social-button" href="#">Инстаграм</a></li>
+                <li><a class="social-button" href="#" tabindex="21"><img src="img/svg-nerds/vk-icon.svg" alt="Вконтакте" width="100%" height="100%"></a></li>
+                <li><a class="social-button" href="#" tabindex="22"><img src="img/svg-nerds/fb-icon.svg" alt="Фейсбук" width="100%" height="100%"></a></li>
+                <li><a class="social-button" href="#" tabindex="23"><img src="img/svg-nerds/insta-icon.svg" alt="Инстаграм" width="100%" height="100%"    ></a></li>
             </ul>
         </div>
         <p class="footer-copyright">
