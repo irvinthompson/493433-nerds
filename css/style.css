@@ -19,6 +19,10 @@ header {
   font-family: "Roboto";
   background-color: #eeeeee;
   display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+ 
 }
 .site-navigation a {
     color: #000000;
@@ -29,6 +33,16 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     
+}
+
+.carge {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto", medium;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .site-navigation li:nth-child(4) {
@@ -78,7 +92,6 @@ header {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     display: flex;
-    margin-left: 100px;
 }
 
 .button1 {
@@ -86,7 +99,6 @@ header {
     font-family: "Roboto";
     font-size: 16px;
     text-decoration: none;
-    margin: 15px 60px;
     padding: 15px 60px;
     border: none;
     background-color: #fb565a;
@@ -109,7 +121,6 @@ header {
     font-family: "Roboto";
     font-size: 16px;
     text-decoration: none;
-    margin: 15px 60px;
     padding: 15px 60px;
     border: none;
     background-color: #fb565a;
@@ -135,7 +146,6 @@ header {
     font-family: "Roboto";
     font-size: 16px;
     text-decoration: none;
-    margin: 15px 60px;
     padding: 15px 60px;
     border: none;
     background-color: #00ca74;
@@ -144,11 +154,11 @@ header {
     border-radius: 5px;
 }
 
-.botton3:hover {
+.button3:hover {
     background-color: #00bc6c;
 }
 
-.botton3:focus {
+.button3:focus {
     background-color: #00aa62;
     color: #4dc491;
 }
@@ -158,7 +168,6 @@ header {
     font-family: "Roboto";
     font-size: 16px;
     text-decoration: none;
-    margin: 15px 60px;
     padding: 15px 60px;
     border: none;
     background-color: #efc84a;
@@ -181,13 +190,25 @@ header {
     font-family: "Roboto";
     font-size: 16px;
     text-decoration: none;
-    margin: 15px 60px;
     padding: 15px 60px;
     border: none;
     background-color: #fb565a;
     text-transform: uppercase;
     display: inline-block;
     border-radius: 5px;
+}
+
+.button-show {
+    color: #000000;
+    font-family: "Roboto" "medium";
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 60px;
+    border: none;
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px; 
 }
 
 .catalog-item {
@@ -264,9 +285,6 @@ h1 {
     display: inline-block;
 }
 
-.patners a:nth-child(1):hover {
-    background: url(img/logo-1.png);
-}
 
 .footer-contacts {
   font-size: 16px;
