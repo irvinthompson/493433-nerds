@@ -18,6 +18,15 @@ a {
     background-color: #eeeeee;
 }
 
+.main-header h1 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.main-header p {
+    padding-top: 20px;
+}
+
 .main-navigation {
     font-size: 16px;
     line-height: 30px;
@@ -108,7 +117,7 @@ color: #ffffff;
 }
 
 .feature-item {
-    text-align: center;
+    
 }
 
 .feature-item h3 {
@@ -156,6 +165,10 @@ color: #ffffff;
     list-style: none;
 }
 
+.patnres-list a:nth-child(1):hover {
+    background-image: url(logo-1-hover.png%20copy.png);
+}
+
 .contacts h3{
     font-size: 18px;
     line-height: 30px;
@@ -167,4 +180,137 @@ contacts p {
     line-height: 18px;
 }
 
+.main-footer a {
+    display: block;
+    background-color: #e1e1e1;
+    padding: 20px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: #e1e1e1;
+}
+
+.main-footer li {
+    list-style: none;
+}
+
+.main-footer a:hover {
+    background-color: #e74246;
+}
+
+.main-footer a:focus {
+    background-color: #d7373b;
+    color: #e37376;
+}
+
+/*Временно для сетки*/
+
+body {
+    min-width: 1200px;
+    min-height: 2470px;
+}
+
+.main-navigation-wrapper {
+    display: flex;
+    
+/*Временно для сетки*/
+    min-width: 1160px;
+    min-height: 130px;
+}
+
+
+
+.main-header-logo {
+    padding-top: 50px;
+    padding-left: 20px;
+    
+/*Врмеенно для сетки*/
+    min-width: 160px;
+    min-height: 65px;
+}
+
+.site-navigation {
+    display: flex;
+    padding: 70px;
+    padding-left: 200px;
+}
+
+.site-navigation li {
+    padding-left: 50px;
+}
+
+.header-container-1 {
+    display: flex;
+    min-height: 415px;
+}
+
+.features {
+    min-height: 505px;
+    margin-bottom: 80px;
+}
+
+.features-list {
+    display: flex;
+    padding-top: 80px;
+    
+    min-height: 350px;
+    min-width: 1100px;
+}
+
+.features-list li:nth-child(1){
+    padding-left: 140px;
+}
+
+.features-list li:nth-child(2){
+    padding-left: 100px;
+}
+
+.features-list li:nth-child(3){
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.index-column {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.about-us {
+    width: 650px;
+    padding-left: 140px;
+    min-height: 315px;
+}
+
+.preview {
+    width: 360px;
+    padding-left: 145px;
+    min-height: 380px;
+}
+
+.preview-line {
+    display: flex;
+}
+
+.partners li {
+    display: inline;
+    padding-left: 90px;
+}
+
+.main-footer {
+    display: flex;
+    min-height: 480px;
+}
+
+.footer-social {
+    display: flex;
+    min-height: 82px;
+}
+
+.social-icon {
+    padding-left: 140px;
+}
+
+.footer-social li {
+    display: inline-block;
+    padding-left: 15px;
 }
